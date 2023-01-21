@@ -44,7 +44,8 @@ Antes de começar, você deve baixar e instalar o git através do link https://g
 
 
 ### Desfazendo um commit com git revert
-Para desfazer um commit, precisamos pegar o código hash ao lado do commit que desejamos desfazer. Para isso, primeiro usamos o `git log --online`. Em seguida, especificamos o código hash no seguinte comando: `git revert 3321844`, onde "3321844" é o número de exemplo. Isso abrirá uma tela, e você só precisa pressionar shift + q para fechá-la.
+Para desfazer um commit, precisamos pegar o código hash ao lado do commit que desejamos desfazer. Para isso, primeiro usamos o
+`git log --online`. Em seguida, especificamos o código hash no seguinte comando: `git revert 3321844`, onde "3321844" é o número de exemplo. Isso abrirá uma tela, e você só precisa pressionar shift + q para fechá-la.
 Interessante ressaltar que o git revert não altera o histórico de commits, pois ele cria um novo commit, sem excluir o antigo. Para as alterações funcionarem, você precisará dar um push no repositório remoto.
 
 
